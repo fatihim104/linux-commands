@@ -51,10 +51,7 @@
     head => $ head dosya.html                      // belirtilen dosyanin ilk 10 satirini getirir.
     tail => $ tail dosya.html                      // belirtilen dosyanin son 10 satirini getirir.
     wget => $ wget                                 // internetten dosya indirme komutudur. bu komuttan sonra 
-                                                    //indirilecek dosyanin adresi yazilir. 
-    find => $ find -name index.html                 // arama yapma komutudur. örnekde ismi index.html olan
-                                                    //dosyalari arar.
-
-
-
-
+                                                    // indirilecek dosyanin adresi yazilir. 
+    find => $ find -name index.html                 // dosya aramak, dosya boyutlarını listelemek 
+                                                    // farklı islevler için kullanılmaktadır. 
+                                                    //örnekde ismi index.html olan dosyalari arar.
